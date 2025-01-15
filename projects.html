@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚧 Project Showcase 🚧</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #000000;
+    }
+
+    .glow-blue {
+      background-color: rgba(0, 24, 82, 0.4);
+      width: 80%;
+      height: 80%;
+      margin: auto;
+      position: absolute;
+      top: -20%;
+      right: -20%;
+      border-radius: 50%;
+      transform: translate(10%, 10%);
+    }
+
+    .glow-red {
+      background-color: rgba(82, 0, 24, 0.3);
+      width: 80%;
+      height: 80%;
+      margin: auto;
+      position: absolute;
+      bottom: -20%;
+      left: -20%;
+      border-radius: 50%;
+      transform: translate(-10%, -10%);
+    }
+
+    /* Sine wave animation styles */
+    .sine-wave {
+      position: relative;
+      width: 100%;
+      height: 150px;
+      background: transparent;
+      overflow: hidden;
+    }
+
+    .wave-path {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: none;
+      overflow: hidden;
+    }
+
+    .wave-path svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .oscillating-path {
+      animation: oscillate 4s cubic-bezier(0.420, 0.000, 0.580, 1.000) infinite;
+    }
+
+    @keyframes oscillate {
+
+      0%,
+      100% {
+        transform: translate(0, 0);
+      }
+
+      50% {
+        transform: translate(0px, 20px);
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-black text-white font-sans">
+  <main class="min-h-screen bg-[#000000] relative overflow-hidden">
+    <!-- Blur effect background -->
+    <div class="absolute inset-0">
+      <div class="glow-blue blur-[150px]"></div>
+      <div class="glow-red blur-[150px]"></div>
+    </div>
+    <!-- Header -->
+    <header class="absolute inset-x-0 top-0 z-50">
+      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <div class="flex lg:hidden">
+          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white">
+            <span class="sr-only">Open main menu</span>
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="index.html" class="text-sm/6 font-semibold text-white hover:text-gray-300">Homepage</a>
+          <a href="about.html" class="text-sm/6 font-semibold text-white hover:text-gray-300">About Me</a>
+        </div>
+      </nav>
+    </header>
+    <div class="flex flex-col items-center justify-center min-h-screen">
+      <h1 class="text-4xl font-bold mb-4">Welcome to the project showcase.</h1>
+      <h2 class="text-2xl mb-8">🚧 Please note that this page is currently under construction. 🚧</h1>
+        <p class="mb-8 text-lg">Whilst I am working on this you can enjoy this relaxing sine wave.</p>
+
+        <div class="sine-wave">
+          <div class="wave-path">
+            <svg viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg">
+              <path class="oscillating-path"
+                d="M0 75 Q 50 0 100 75 T 200 75 T 300 75 T 400 75 T 500 75 T 600 75 T 700 75 T 800 75 T 900 75 T 1000 75 T 1100 75 T 1200 75"
+                fill="none" stroke="white" stroke-width="2" />
+            </svg>
+          </div>
+        </div>
+    </div>
+</body>
+
+</html>

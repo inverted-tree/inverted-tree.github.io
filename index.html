@@ -1,1 +1,92 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000000;
+        }
+
+        .glow-blue {
+            background-color: rgba(0, 24, 82, 0.4);
+            width: 80%;
+            height: 80%;
+            margin: auto;
+            position: absolute;
+            top: -20%;
+            right: -20%;
+            border-radius: 50%;
+            transform: translate(10%, 10%);
+        }
+
+        .glow-red {
+            background-color: rgba(82, 0, 24, 0.3);
+            width: 80%;
+            height: 80%;
+            margin: auto;
+            position: absolute;
+            bottom: -20%;
+            left: -20%;
+            border-radius: 50%;
+            transform: translate(-10%, -10%);
+        }
+    </style>
+</head>
+
+<body class="h-full m-0">
+    <main class="min-h-screen bg-[#000000] relative overflow-hidden">
+        <!-- Blur effect background -->
+        <div class="absolute inset-0">
+            <div class="glow-blue blur-[150px]"></div>
+            <div class="glow-red blur-[150px]"></div>
+        </div>
+
+        <!-- Header -->
+        <header class="absolute inset-x-0 top-0 z-50">
+            <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+                <div class="flex lg:hidden">
+                    <button type="button"
+                        class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden lg:flex lg:gap-x-12">
+                    <a href="about.html" class="text-sm/6 font-semibold text-white hover:text-gray-300">About Me</a>
+                    <a href="projects.html" class="text-sm/6 font-semibold text-white hover:text-gray-300">Projects</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+            <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                <div class="text-center">
+                    <h1 class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">Hej, great to
+                        see you on my website.</h1>
+                    <p class="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">My name is Lukas and I am
+                        a software developer with a focus on High Performance Computing and Computational Sciences.</p>
+                    <div class="mt-10 flex items-center justify-center gap-x-6">
+                        <a href="https://github.com/inverted-tree"
+                            class="rounded-md bg-[#001233] hover:bg-[#001845] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-200">Visit
+                            me on GitHub</a>
+                        <a class="text-sm/6 font-semibold text-white">or</a>
+                        <a href="mailto:inverted-tree.surname694@passmail.net"
+                            class="rounded-md bg-[#001233] hover:bg-[#001845] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-200">Send
+                            me an eMail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
