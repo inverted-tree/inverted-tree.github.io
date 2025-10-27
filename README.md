@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://inverted-tree.github.io/">
+    <img src="https://github.com/inverted-tree/inverted-tree.github.io/actions/workflows/pages.yml/badge.svg" alt="Deploy status">
+  </a>
+</p>
+
 # License
 
 This repository uses a dual-license model:
