@@ -1,0 +1,4 @@
+baseURL = 'https://inverted-tree.github.io/'
+languageCode = 'en-us'
+title = "Lukas's Blog"
+theme = "archie"
