@@ -2,3 +2,19 @@ baseURL = 'https://inverted-tree.github.io/'
 languageCode = 'en-us'
 title = "Lukas's Blog"
 theme = "archie"
+copyright = "© Lukas Schröder — CC BY-NC 4.0 & MIT"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/inverted-tree"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
