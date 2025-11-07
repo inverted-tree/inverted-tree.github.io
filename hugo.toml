@@ -7,6 +7,12 @@ copyright = "© Lukas Schröder — CC BY-NC 4.0 & MIT"
 [Author]
 name = "Lukas Schröder"
 
+[params]
+favicon = "https://img.icons8.com/windows/96/dev.png"
+mode = "toggle"
+useCDN = true
+subtitle = "Any sufficiently advanced technology is indistinguishable from magic. — _Arthur C. Clarke's third law._"
+
 [[params.social]]
 name = "GitHub"
 icon = "github"

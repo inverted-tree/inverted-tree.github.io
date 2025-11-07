@@ -1,3 +1,8 @@
+<div align="center">
+  <h1>my blog.</h1>
+  <p>This is where my thoughts run their CI/CD pipeline.</p>
+</div>
+
 <p align="center">
   <a href="https://inverted-tree.github.io/">
     <img src="https://github.com/inverted-tree/inverted-tree.github.io/actions/workflows/pages.yml/badge.svg" alt="Deploy status">
