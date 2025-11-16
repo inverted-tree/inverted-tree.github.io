@@ -12,7 +12,7 @@ favicon = "https://img.icons8.com/windows/96/dev.png"
 mode = "toggle"
 useCDN = true
 subtitle = "Any sufficiently advanced technology is indistinguishable from magic. — _Arthur C. Clarke's third law._"
-customcss = ["css/fonts.css"]
+customcss = ["css/fonts.css", "css/colorschemes/rose-pine.css"]
 
 [[params.social]]
 name = "GitHub"
