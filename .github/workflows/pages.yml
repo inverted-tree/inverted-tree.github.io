@@ -33,6 +33,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
+      - name: Sync fonts
+        run: |
+          chmod +x scripts/sync-fonts.sh
+          ./scripts/sync-fonts.sh
+
       - name: Build
         run: hugo --minify
 

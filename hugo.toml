@@ -1,6 +1,6 @@
 baseURL = 'https://inverted-tree.github.io/'
 languageCode = 'en-us'
-title = "Lukas's Blog"
+title = "A CI/CD pipeline for my thoughts."
 theme = "archie"
 copyright = "© Lukas Schröder — CC BY-NC 4.0 & MIT"
 
@@ -12,6 +12,7 @@ favicon = "https://img.icons8.com/windows/96/dev.png"
 mode = "toggle"
 useCDN = true
 subtitle = "Any sufficiently advanced technology is indistinguishable from magic. — _Arthur C. Clarke's third law._"
+customcss = ["css/fonts.css"]
 
 [[params.social]]
 name = "GitHub"
