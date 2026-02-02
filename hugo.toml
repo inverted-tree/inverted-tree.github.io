@@ -1,4 +1,4 @@
-baseURL = 'https://inverted-tree.github.io/'
+baseURL = 'https://xn--c1adtlmkl.cc/'
 languageCode = 'en-us'
 title = "A CI/CD pipeline for my thoughts."
 theme = "archie"
@@ -22,7 +22,7 @@ url = "https://github.com/inverted-tree"
 [[params.social]]
 name = "RSS"
 icon = "rss"
-url = "https://inverted-tree.github.io/index.xml"
+url = "https://xn--c1adtlmkl.cc/index.xml"
 
 [[menu.main]]
 name = "Home"
