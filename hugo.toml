@@ -1,8 +1,8 @@
 baseURL = 'https://xn--c1adtlmkl.cc/'
 languageCode = 'en-us'
-title = "A CI/CD pipeline for my thoughts."
-theme = "archie"
-copyright = "© Lukas Schröder — CC BY-NC 4.0 & MIT"
+title = "сегфолт.cc [segmentation fault]"
+copyright = "Lukas Schröder"
+theme = "segfault"
 
 [Author]
 name = "Lukas Schröder"
@@ -11,8 +11,15 @@ name = "Lukas Schröder"
 favicon = "https://img.icons8.com/windows/96/dev.png"
 mode = "toggle"
 useCDN = true
-subtitle = "Any sufficiently advanced technology is indistinguishable from magic. — _Arthur C. Clarke's third law._"
-customcss = ["css/fonts.css", "css/colorschemes/rose-pine.css"]
+launchYear = 2025
+subtitle = [
+    "Bare metal, virtual machines, and tight loops.",
+    "Rust and C in pursuit of fewer cycles."
+]
+footer = "A CI/CD pipeline for my thoughts. Share this site:"
+# license = "./LICENSE"
+qrCode = "./img/qr-code.svg"
+qrText = "scan for segfault"
 
 [[params.social]]
 name = "GitHub"

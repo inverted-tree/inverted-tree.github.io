@@ -4,3 +4,6 @@
 [submodule "vendor/plex"]
 	path = vendor/plex
 	url = https://github.com/IBM/plex
+[submodule "themes/segfault"]
+	path = themes/segfault
+	url = git@github.com:inverted-tree/segfault.git
