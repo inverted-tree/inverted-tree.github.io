@@ -42,3 +42,7 @@ weight = 2
 [module]
   [[module.imports]]
     path = "github.com/inverted-tree/segfault"
+
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
