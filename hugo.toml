@@ -15,7 +15,7 @@ subtitle = [
     "This is where I yap about my interests."
 ]
 footer = "A CI/CD pipeline for my thoughts. Share this site:"
-license = "./license"
+license = "license"
 qrCode = "./img/qr-code.svg"
 qrText = "scan for segfault"
 
