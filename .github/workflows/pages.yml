@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_CACHEDIR: /tmp/hugo_cache
+      HUGO_ENV: production
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo

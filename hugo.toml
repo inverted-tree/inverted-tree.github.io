@@ -2,7 +2,6 @@ baseURL = 'https://xn--c1adtlmkl.cc/'
 languageCode = 'en-us'
 title = "сегфолт.cc [segmentation fault]"
 copyright = "Lukas Schröder"
-theme = "segfault"
 
 [Author]
 name = "Lukas Schröder"
@@ -13,8 +12,7 @@ mode = "toggle"
 useCDN = true
 launchYear = 2025
 subtitle = [
-    "Bare metal, virtual machines, and tight loops.",
-    "Rust and C in pursuit of fewer cycles."
+    "This is where I yap about my interests."
 ]
 footer = "A CI/CD pipeline for my thoughts. Share this site:"
 # license = "./LICENSE"
