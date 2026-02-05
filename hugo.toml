@@ -12,7 +12,8 @@ mode = "toggle"
 useCDN = true
 launchYear = 2025
 subtitle = [
-    "This is where I yap about my interests."
+    "This is where I'll yap about my interests.",
+    "As you might have guessed from the sheer number of posts, this site is still a work in progress."
 ]
 footer = "A CI/CD pipeline for my thoughts. Share this site:"
 license = "license"
